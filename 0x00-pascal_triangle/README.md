@@ -1,0 +1,1 @@
+Pascal's triangle is a triangular array of numbers in which each row contains the coefficients of the binomial expansion. The first and last numbers in each row are always 1, and each number inside the triangle is the sum of the two numbers directly above it. 
