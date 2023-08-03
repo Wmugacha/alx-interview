@@ -8,8 +8,16 @@ def canUnlockAll(boxes):
     """
     Method to determine if all boxes can be opened
     """
+    # If list is empty
+    if not boxes:
+        return False
+
     # Total number of boxes
     n = len(boxes)
+
+    # If only one box exists
+    if n == 1:
+        return True
 
     # Declare set to track opened boxes
     visited_boxes = set()
@@ -33,5 +41,4 @@ def canUnlockAll(boxes):
     # Check if we have visited all boxes
     if len(visited_boxes) == n:
         return True
-    else:
-        return False
+    return False
