@@ -18,8 +18,8 @@ def minOperations(n):
             current *= 2          # Double the current value
             operations += 1       # Increment the operation count (Copy)
         else:
-            # If the current value is not a factor of n, perform a Paste operation
-            current += clipboard  # Add the value in the clipboard to the current value
+            # If the current value is not a factor of n, do a Paste operation
+            current += clipboard  # Add value in clipboard to the current value
         operations += 1           # Perform a Paste operation in either case
 
     return operations
