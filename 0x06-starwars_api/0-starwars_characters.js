@@ -19,7 +19,7 @@ request(movieUrl, function (error, response, body) {
   }
 });
 
-function fetchCharacters(index, characterUrl, characters, limit) {
+function fetchCharacters (index, characterUrl, characters, limit) {
   if (index === limit) {
     return;
   }
